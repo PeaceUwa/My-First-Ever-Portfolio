@@ -150,9 +150,24 @@ img, .card, input, textarea, button {
   
   @media (min-width: 1024px) {
   section {
-    padding: 100px 50px;
-    
+    padding: 100px @media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 15px 20px;
   }
-}
 
+  nav a {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .services
+    {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .logo img {
+    width: 90px;
+  }
 }
