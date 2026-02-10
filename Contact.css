@@ -1,6 +1,9 @@
 .contact {
-  padding: 60px 20px;
+  padding: 40px 20px;
   text-align: center;
+  max-width:1100px;
+  margin:0 auto;
+
 }
 
 .contact h2 {
@@ -14,6 +17,7 @@
   gap: 15px;
   max-width: 400px;
   margin: 0 auto;
+  flex-wrap:wrap;
 }
 
 .contact input,
@@ -27,10 +31,13 @@
 
 .contact textarea {
   resize: vertical;
-  min-height: 120px;
+  min-height: 200px;
+  
 }
 
 .contact button {
+  height:38px auto;
+  width:auto
   padding: 12px;
   border: none;
   border-radius: 25px;
