@@ -3,13 +3,14 @@
   background-color: #f5f5f5;
   text-align: center;
   display:grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns:  1fr;
   gap:20px;
 }
 
 .services h2 {
   font-size: 32px;
   margin-bottom: 40px;
+  vertical-align: center;
 }
 
 .service-cards {
