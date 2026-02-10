@@ -21,12 +21,12 @@ header {
 
 .logo img{
   height: auto;
-  width: 200px;
+  width: 120px;
   object-fit: cover;
 }
 nav {
   display: flex;
-  gap: 15px;
+  gap: 30px;
 }
 
 nav a {
