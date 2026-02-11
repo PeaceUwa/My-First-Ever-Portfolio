@@ -55,8 +55,22 @@
 @media (min-width: 768px) {
   .contact form {
     max-width: 500px;
+    display: flex;
+    fkex-direction: column;
+    flex-wrap: wrap;
   }
 } 
+
+
+@media ( min-width: 398px) {
+  .contact form {
+    max-width: 385px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
 
 
  
