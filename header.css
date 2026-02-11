@@ -5,6 +5,8 @@ header {
   justify-content: space-between;
   align-items: center;
   position: sticky;
+  right: 0;
+  left: 0;
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -33,5 +35,14 @@ nav a {
   text-decoration: none;
   font-size: 14px;
   color: #475569;
+}
+
+@media (min-width: 390px) { 
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: static;
+  }
 }
   
