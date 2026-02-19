@@ -4,11 +4,16 @@
   
 }
 
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 .services h3{
   font-size: 3rem;
   margin-bottom: .75em;
   
-  text-align: center;
+  
   
 }
 
