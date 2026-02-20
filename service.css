@@ -28,6 +28,7 @@
 @media (max-width: 650px){
   .service-cards{
     flex-direction: column;
+    justify-content: space-between;
   }
   
 }
@@ -44,9 +45,8 @@
 
 @media (max-width: 650px){
   .card{
-    width: 90%;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%;
+    
   }
 }
 
