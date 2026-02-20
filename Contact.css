@@ -1,9 +1,9 @@
 .contact {
-  padding: 40px 20px;
+  padding: 1.5em .8em
   text-align: center;
-  width: 90%;
+  width: 100%;
   
-  max-width:960px;
+  
   margin:0 auto;
 
 }
@@ -14,26 +14,29 @@
 }
 
 .contact form {
-  display: flex;
-  gap: 15px;
-  width: 95%;
-  max-width: 930px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  
   margin: 0 auto;
   flex-wrap:wrap;
 }
 
-.contact input,
-.contact textarea {
-  padding: 12px 15px;
-  border: 1px solid #cbd5e1;
-  border-radius: 8px;
-  font-size: 1.4rem;
-  fiex: 1;
+@media (max-width: 650px){
+  .contact-form{
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 3em;
+  }
+} 
+
+.contact input{
+  height: 40px
+
 }
 
 .contact textarea {
   resize: vertical;
-  min-height: 200px auto;
+  min-height: 250px ;
   
 }
 
@@ -41,12 +44,12 @@
   height:38px auto;
   flex: 1;
   
-  padding: 12px;
+  padding: .5em .7em;
   border: none;
   border-radius: 25px;
   background-color: #38bdf8;
   color: #0f172a;
-  font-size: 16px;
+  font-size: 1.2rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
