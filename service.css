@@ -23,6 +23,19 @@
   flex-wrap: wrap;
 }
 
+
+/* media query to make my service card stack in smaller screens */
+@media (max-width: 650px){
+  .service-cards{
+    flex-direction: column;
+  }
+  .card{
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+      
+
 .card {
   background-color: #ffffff;
   padding: 1em .3em;
