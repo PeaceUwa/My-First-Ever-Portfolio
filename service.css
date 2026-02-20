@@ -29,10 +29,7 @@
   .service-cards{
     flex-direction: column;
   }
-  .card{
-    width: 100%;
-    justify-content: space-between;
-  }
+  
 }
       
 
@@ -43,6 +40,14 @@
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media (max-width: 650px){
+  .card{
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .card h3 {
